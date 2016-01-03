@@ -1,0 +1,20 @@
+{
+  "name": "team-website-frontend",
+  "version": "0.0.1",
+  "description": "SSWD frontend for the team website",
+  "main": "app/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smallscalewebdev/team-website-frontend.git"
+  },
+  "author": "SSWD Team",
+  "license": "",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/smallscalewebdev/team-website-frontend/issues"
+  },
+  "homepage": "https://github.com/smallscalewebdev/team-website-frontend#readme"
+}
