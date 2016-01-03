@@ -32,6 +32,12 @@ module.exports = {
     })
   ],
   module: {
+    preLoaders: [
+      {
+        test: /\.jsx?$/,
+        loaders: ['eslint']
+      }
+    ],
     loaders: [
       {
         test: /\.jsx?$/,
