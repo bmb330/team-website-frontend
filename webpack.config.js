@@ -20,13 +20,15 @@ module.exports = {
     ]
   },
   plugins: [
-    new HtmlWebpackPlugin({
-      title: 'SSWD Team Site'
-    }),
     new Webpack.ProvidePlugin({
       $: 'jquery',
       jQuery: 'jquery',
       'window.jQuery': 'jquery'
+    }),
+    new HtmlWebpackPlugin({
+      template: 'node_modules/html-webpack-template/index.html',
+      title: 'SSWD Team Site',
+      appMountId: 'app'
     })
   ],
   module: {
