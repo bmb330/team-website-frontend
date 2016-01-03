@@ -1,8 +1,12 @@
 var HtmlWebpackPlugin = require('html-webpack-plugin');
+var Webpack = require('webpack');
 
 module.exports = {
   context: __dirname + '/app',
-  entry: './app.js',
+  entry: [
+    'bootstrap-loader',
+    './index'
+  ],
   output: {
     path: __dirname + '/dist',
     filename: 'bundle.js'
@@ -18,6 +22,11 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'SSWD Team Site'
+    }),
+    new Webpack.ProvidePlugin({
+      $: 'jquery',
+      jQuery: 'jquery',
+      'window.jQuery': 'jquery'
     })
   ],
   module: {
@@ -38,7 +47,8 @@ module.exports = {
         test: /\.css$/,
         loaders: [
           'style',
-          'css'
+          'css',
+          'resolve-url'
         ]
       },
       {
@@ -46,8 +56,17 @@ module.exports = {
         loaders: [
           'style',
           'css',
-          'sass'
+          'resolve-url',
+          'sass?sourceMap'
         ]
+      },
+      {
+        test: /\.(woff2?|svg)$/,
+        loader: 'url?limit=10000'
+      },
+      {
+        test: /\.(ttf|eot)$/,
+        loader: 'file'
       }
     ]
   }
