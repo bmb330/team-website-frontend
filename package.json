@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/smallscalewebdev/team-website-frontend/issues"
   },
-  "homepage": "https://github.com/smallscalewebdev/team-website-frontend#readme"
+  "homepage": "https://github.com/smallscalewebdev/team-website-frontend#readme",
+  "devDependencies": {
+    "webpack": "^1.12.9"
+  }
 }
