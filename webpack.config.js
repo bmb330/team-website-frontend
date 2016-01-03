@@ -33,6 +33,21 @@ module.exports = {
             'es2015'
           ]
         }
+      },
+      {
+        test: /\.css$/,
+        loaders: [
+          'style',
+          'css'
+        ]
+      },
+      {
+        test: /\.scss$/,
+        loaders: [
+          'style',
+          'css',
+          'sass'
+        ]
       }
     ]
   }
