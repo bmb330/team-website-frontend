@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/smallscalewebdev/team-website-frontend#readme",
   "devDependencies": {
-    "webpack": "^1.12.9"
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
   }
 }
