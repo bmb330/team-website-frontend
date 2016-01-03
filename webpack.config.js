@@ -2,11 +2,12 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   context: __dirname + '/app',
-  entry: './main',
+  entry: './app.js',
   output: {
     path: __dirname + '/dist',
     filename: 'bundle.js'
   },
+  devtoll: 'eval-source-map',
   resolve: {
     extensions: [
       '',
