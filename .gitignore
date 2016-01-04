@@ -1,3 +1,17 @@
 node_modules
 dist
 
+
+*.woff2
+
+dist/89889688147bd7575d6327160d64e760.svg
+
+dist/bundle.js
+
+dist/e18bbf611f2a2e43afc071aa2f4e1512.ttf
+
+dist/f4769f9bdb7466be65088239c12046d1.eot
+
+dist/fa2772327f55d8198301fdb8bcfc8158.woff
+
+dist/index.html
