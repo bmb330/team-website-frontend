@@ -13,9 +13,9 @@ run
 
 #### Development Build
 run
-`npm dev`
+`npm run dev`
 
 #### Production Build
 run
-`npm build`
+`npm run build`
 
