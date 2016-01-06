@@ -27,6 +27,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       template: 'node_modules/html-webpack-template/index.html',
+      mobile: true,
       title: 'SSWD Team Site',
       appMountId: 'app'
     })
