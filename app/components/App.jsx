@@ -1,7 +1,10 @@
 import React from 'react';
+import Navbar from './Navbar.jsx';
 
 export default class App extends React.Component {
   render () {
-    return <h1>This is working!</h1>;
+    return (
+      <Navbar />
+    );
   }
 }
