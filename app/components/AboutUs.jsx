@@ -25,7 +25,7 @@ export default () => (
         </p>
       </div>
       <div className="hidden-xs col-sm-5">
-        <img src="https://placehold.it/350/333333" className="img-responsive" />
+        <img src="https://placehold.it/350/333333" className="img-responsive pull-right" />
       </div>
     </div>
   </div>
