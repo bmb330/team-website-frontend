@@ -1,0 +1,27 @@
+.navbar-header {
+  .navbar-brand {
+    font: 600 3.8rem Verdana,Geneva,sans-serif;
+    line-height:10px;
+    text-align: center;
+  }
+
+  .navbar-nav li a {
+    line-height: 44px;
+    height: 88px;
+  }
+
+  .small {
+    font-size:.8rem;
+  }
+}
+
+.navbar-collapse {
+  .navbar-nav li a {
+    color: $brand-primary;
+    font-size: 1.8rem;
+
+    &:hover {
+      color: $link-hover-color;
+    }
+  }
+}

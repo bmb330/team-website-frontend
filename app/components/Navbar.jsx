@@ -2,7 +2,7 @@ import React from 'react';
 
 export default () => (
   // Navbar
-  <nav className="navbar navbar-default navbar-fixed-top">
+  <nav className="navbar navbar-default">
     <div className="container-fluid">
       <NavbarHeader />
       <NavbarLinks />
@@ -24,6 +24,7 @@ const NavbarHeader = () => (
     </button>
     <a className="navbar-brand" href="/">
       SSWD
+      <br/>
       <span className="small">Small Scale Web Development</span>
     </a>
   </div>
