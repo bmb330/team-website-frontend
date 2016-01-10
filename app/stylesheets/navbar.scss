@@ -17,14 +17,18 @@
 
 .navbar-collapse {
   .navbar-nav li a {
-    color: $brand-primary;
+    color: $link-color;
     font-size: 1.8rem;
 
     &:hover {
       color: $link-hover-color;
-      border-bottom: solid 2px $brand-primary;
+      border-bottom: solid 2px $link-color;
       padding-bottom: 9px;
       margin-bottom: 4px;
+    }
+
+    &:active, &:visited, &:focus {
+      color: $link-color;
     }
   }
 }
